@@ -1,0 +1,261 @@
+/* Main modal styles */
+.kindle-sync-modal {
+    padding: 20px;
+}
+
+.kindle-sync-modal h2 {
+    margin-bottom: 20px;
+}
+
+/* Status styles */
+.kindle-sync-status {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background-color: var(--background-secondary);
+}
+
+.kindle-sync-connected {
+    color: var(--text-success);
+}
+
+.kindle-sync-disconnected {
+    color: var(--text-error);
+}
+
+/* Notebook list styles */
+.kindle-sync-notebooks {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.kindle-sync-notebooks .setting-item {
+    padding: 10px;
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+/* Button styles */
+.kindle-sync-button {
+    background-color: var(--interactive-accent);
+    color: var(--text-on-accent);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.kindle-sync-button:hover {
+    background-color: var(--interactive-accent-hover);
+}
+
+.kindle-sync-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Status view styles */
+.kindle-sync-status-section {
+    padding: 20px;
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.kindle-sync-status-section h3 {
+    margin-bottom: 10px;
+}
+
+/* Logs styles */
+.kindle-sync-logs-section {
+    padding: 20px;
+}
+
+.kindle-sync-logs {
+    height: 300px;
+    overflow-y: auto;
+    background-color: var(--background-secondary);
+    border-radius: 4px;
+    padding: 10px;
+    font-family: var(--font-monospace);
+    font-size: 12px;
+}
+
+.kindle-sync-log {
+    margin-bottom: 4px;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.kindle-sync-log-timestamp {
+    color: var(--text-muted);
+    margin-right: 8px;
+}
+
+.kindle-sync-log-info {
+    color: var(--text-normal);
+}
+
+.kindle-sync-log-warn {
+    color: var(--text-warning);
+}
+
+.kindle-sync-log-error {
+    color: var(--text-error);
+}
+
+/* Settings tab styles */
+.kindle-sync-settings {
+    padding: 20px;
+}
+
+.kindle-sync-settings .setting-item {
+    margin-bottom: 16px;
+}
+
+.kindle-sync-settings .setting-item-control {
+    flex: 1;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .kindle-sync-modal {
+        padding: 10px;
+    }
+
+    .kindle-sync-notebooks {
+        max-height: 300px;
+    }
+
+    .kindle-sync-logs {
+        height: 200px;
+    }
+}
+
+.kindle-sync-view {
+    padding: 20px;
+}
+
+.kindle-sync-header {
+    margin-bottom: 20px;
+}
+
+.kindle-sync-header h2 {
+    margin: 0;
+    color: var(--text-normal);
+}
+
+.kindle-sync-status-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.kindle-sync-status {
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: var(--background-secondary);
+    color: var(--text-normal);
+}
+
+.kindle-sync-button {
+    background-color: var(--interactive-accent);
+    color: var(--text-on-accent);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.kindle-sync-button:hover {
+    background-color: var(--interactive-accent-hover);
+}
+
+.kindle-sync-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.kindle-sync-last-sync {
+    margin-bottom: 15px;
+    color: var(--text-muted);
+}
+
+.kindle-sync-auto-sync {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.kindle-sync-toggle {
+    width: 16px;
+    height: 16px;
+}
+
+.kindle-sync-logs-section {
+    margin-top: 20px;
+}
+
+.kindle-sync-logs-section h3 {
+    margin: 0 0 10px 0;
+    color: var(--text-normal);
+}
+
+.kindle-sync-logs {
+    background-color: var(--background-secondary);
+    border-radius: 4px;
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.kindle-sync-log-entry {
+    margin-bottom: 5px;
+    font-family: var(--font-monospace);
+    font-size: 0.9em;
+}
+
+.kindle-sync-log-timestamp {
+    color: var(--text-muted);
+    margin-right: 8px;
+}
+
+.kindle-sync-log-info {
+    color: var(--text-normal);
+}
+
+.kindle-sync-log-warn {
+    color: var(--text-warning);
+}
+
+.kindle-sync-log-error {
+    color: var(--text-error);
+}
+
+.kindle-sync-debug-section {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: var(--background-secondary);
+    border-radius: 4px;
+}
+
+.kindle-sync-debug-section h3 {
+    margin: 0 0 10px 0;
+    color: var(--text-normal);
+}
+
+.kindle-sync-debug-info {
+    color: var(--text-muted);
+    font-size: 0.9em;
+}
+
+.kindle-sync-debug-info ol {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.kindle-sync-debug-info li {
+    margin: 5px 0;
+} 

@@ -1,0 +1,18 @@
+{
+  "amazonCookies": " lc-main=en_US; session-id=139-8070567-6704157; session-id-time=2082787201l; session-token=npcHv50FWz7BNx6FQ1RHoz4gEfsQZdCfZQFKMDWrmxU/ClTPGIrnLOCdpzza4O47kxSxjn6jEYGaYdarZ1VpTDAKiswM1/v0I66cboZm86oiFt3kLvpAulJl2HbOwI6Whaj4xd4SQwgw2whEz3+hYdAqyPALQ3G8KNvKq279D7mhaNtaEqatQHz2yexOK3tA5zEcE9UdtX5TvIrk/mK32FuGdKesj/3pk0ZZrzSYWCIlHNVPTy06egHViuT510KZ9cszG2MHEymkMZ514xaHGh2LIjkImQgA1hN1NeoeLH9Izh6AKUQ/wiRfMOjVzMacHlSptHAyHTK0G1OFF6KEurSItF/IBswkwunQCN5XbNeodtxGVoLlAWZItVY/n0xJ; x-main=lK1oSF6eTliR16z2DfEWNTyIa3IYCsBZkoom5Y8@QHbJokS5OOlnNpETSBxnsc1U; csm-hit=s-4TTZKTHY5VSFRHK3Y8VH|1747379547684; at-main=Atza|IwEBIMLp4dDIov17LOQO0xSzZMylrhLEZgTjyAjBQHPMq6P8nndQkEaxOD02FebZ57FVftQtpD4qJPCPqJNaLA7thAEWucHHheqeJNXBUxA5uGZIj7gnZsJsaFqljfR4l_OQ-M2SRpwclKwBFaopNZRUrWLu4yG3Horfe0t5WQUkszhHzQK1q2kNqWeQDhqB0NYb5cTJ__vudvwiUfcNkgErRrQeyhSqu0wbMQs8QJRc8c__KA; sess-at-main=\"p7nypRnp0uYMXQdL7RQPay5EgVw+gqTfqSQP+USeLDI=\"; ubid-main=130-7801687-2380735; i18n-prefs=EUR; sp-cdn=\"L5Z9:ES\"",
+  "targetFolder": "Kindle Notes",
+  "syncInterval": 300,
+  "selectedNotebooks": [],
+  "autoSync": false,
+  "syncOnStartup": false,
+  "imageQuality": "high",
+  "markdownConversion": false,
+  "bidirectionalSync": false,
+  "logLevel": "debug",
+  "notebookFolder": "Kindle Notebooks",
+  "convertHandwriting": true,
+  "syncFolder": "Kindle Notes",
+  "amazonToken": "y+6ZnWkf7vCcpqQQxIrClJuhQEZReW5W4oMVY7/st+rYQztva78mn/B2ihUoKv+axRDbyvi/iguv7zs01cP8qEY81AAV5W2FB2Cxlsi7rcxEh3Hz2MOpz3ArsiOZ9KOEGM9mFhucPGUPWtJ35Kg9j0dV2I2ParEVGu5WTvsEH/RG1zudoefyfnF6/xUXTuKzAJipzK65f2IdZaqeUsyI+I8drITMdcMkynmnKvtnpjJe/qaYW+DaveY4+BWrhwnzORf8bOk4WF96GhzS3Qx+VSz0BBWR8vBO2ISIU31jndYFTp/OgyM6PgJneBQ9ozldjKi6jpCWNL9x9980+d0l2HqYjC5PE8oMpNwgtwG7Cjr0+PBTX2D4kTdociWIpjB0",
+  "amazonEmail": "alberto.arconada@gmail.com",
+  "amazonPassword": "@C1d01978001"
+}
